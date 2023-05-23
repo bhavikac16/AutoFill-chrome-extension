@@ -1,0 +1,148 @@
+{
+    "https://newchip.com/": {
+      "isComplex": false,
+      "selectorMapping": {
+        "[name='field96074325-first']": "firstName",
+        "[name='field96074325-last']": "lastName",
+        "[name='field96074326']": "email",
+        "[name='field96074328']": "phone",
+        "[name='field96074329']":"linkedin",
+        "[name='field96074341']": "company_name",
+        "[name='field96074342']": "website",
+        "[id='field96074348UploadButton']": "deck"
+      }
+    },
+    "https://angelpad.com/": {
+      "isComplex": false,
+      "selectorMapping": {
+        "[name='FNAME']": "firstName",
+        "[name='EMAIL']": "email"
+      }
+    },
+    "https://docs.google.com/forms/d/e/1FAIpQLSdlAkO35VSwzh8rSqGe8C_anSfLCrASUaKriwWKv0BMlHhsMg/viewform":{
+        "isComplex": false,
+        "selectorMapping": {
+            "[aria-label='Your email address']": "email",
+            "[aria-labelledby='i5']": "fullName",
+            "[aria-labelledby='i9']": "email",
+            "[aria-labelledby='i13']": "phone",
+            "[aria-labelledby='i33']": "company_name",
+            "[aria-labelledby='i37']": "website"
+        }
+    },
+
+    "https://apply.ycombinator.com/":{
+        "isComplex": false,
+        "selectorMapping":{
+            "[name='app[questions][name]']": "company_name",
+            "[name='app[questions][url]']": "website",
+            "[name='app[applicants_attributes][0][bio_attributes][questions][fname]']": "fullName",
+            "[name='app[applicants_attributes][0][email_address]']": "email",
+            "[name='app[questions][phone]']": "phone",
+            "[name='app[applicants_attributes][0][bio_attributes][questions][linkedin]']": "linkedin",
+            "[name='app[applicants_attributes][0][bio_attributes][questions][gender]']": "gender"
+        }
+    },
+
+    "https://www.beondeck.com/x":{
+        "isComplex": false,
+        "selectorMapping":{
+            "[name='email']": "email",
+            "[id='_a4f28a93ab142b7985f2ce3a3a2c76caef557d82fd52904d210cd5cda368b511']" : "fullName",
+            "[id='_bc45a3e84039e1625ab7b9e23c02e9a14cfbdc8fe7173cfa9d9ded82b565b7af']" : "linkedin"
+
+        }
+    },
+
+    "https://forms.monday.com/forms/e41be69cc0e04d5f33bd471c3a64a6cb?r=use1":{
+        "isComplex":false,
+        "selectorMapping":{
+            "[aria-labelledby='text']" : "fullName",
+            "[aria-labelledby='text4']" : "email",
+            "[aria-labelledby='text3']" : "linkedin",
+            "[aria-labelledby='text12']" : "email",
+            "[aria-labelledby='link']" : "website",
+            "[type='file']":"deck"
+        }
+
+    },
+
+    "https://jsf.co/":{
+        "isComplex":false,
+        "selectorMapping":{
+            "[name='RESULT_TextField-0']": "firstName",
+            "[name='RESULT_TextField-1']": "lastName",
+            "[name='RESULT_TextField-2']": "email",
+            "[name='RESULT_TextField-3']": "company_name",
+            "[name='RESULT_TextField-4']": "website",
+            "[name='RESULT_FileUpload-39']": "deck"
+        }
+    },
+
+    "https://highalpha.com/build-with-us/":{
+        "isComplex":false,
+        "selectorMapping":{
+            "[name='firstname']": "firstName",
+            "[name='lastname']": "lastName",
+            "[name='email']": "email",
+            "[name='linkedin_url']": "linkedin"
+        }
+    },
+
+    "https://form.typeform.com/to/dRl9sxnG?typeform-source=www.themidas.vc":{
+        "isComplex":false,
+        "selectorMapping":{
+            "[aria-labelledby='short_text-c4f58d62-bb20-4318-b178-97b02141879a-jRuGics91kLtgBKw-title']":"firstName",
+            "[aria-labelledby='short_text-1e2f1e3a-2e43-4c4d-b00c-81e3f3d10b19-jRuGics91kLtgBKw-title' ]": "lastName",
+            "[name='email']": "email",
+            "[aria-describedby='website-46616dde-6563-41fb-b761-d389c2cd8909-jRuGics91kLtgBKw-description']": "linkedin",
+            "[id='']": "company_name"
+        }
+    },
+
+    "https://a16z.com/":{
+        "isComplex":false,
+        "selectorMapping":{
+            "[name='job_application[first_name]']": "firstNname",
+            "[name='job_application[last_name]']": "lastName",
+            "[name='job_application[email]']": "email",
+            "[name='job_application[phone]']": "phone",
+            "[name='job_application[location]']": "location",
+            "[name='job_application[answers_attributes][0][text_value]']": "linkedin"
+        }
+    },
+
+    "https://ggn9lko5eaj.typeform.com/to/bQ27hmiW?typeform-source=www.evca.org":{
+        "isComplex":false,
+        "selectorMapping":{
+            "[aria-labelledby='short_text-01FSN8PM7EWB2XNRRRP6AS4N7T-yuPqwGKePyhbuuIC-title']": "fullName",
+            "[id='']": "school",
+            "[aria-labelledby='short_text-50d18420-32ea-4b31-9226-f91ad00c6d3e-yuPqwGKePyhbuuIC-title']": "discipline",
+            "[aria-labelledby='short_text-aaefe72c-c07c-49e5-ada2-ea18c26079cb-KBGl00kdFWAzSecU-title']": "linkedin"
+        }
+    },
+
+    "https://www.pareto20.com/":{
+        "isComplex":false,
+        "selectorMapping":{
+            "[aria-labelledby='short_text-01F30WH9S98ZMH5Y5A655HXT57-RM7OZEJj22nk35PG-title']": "fullName",
+            "[name='email']": "email",
+            "[id='website-1f63366d-6a1c-4275-9711-dc0fbe2f17a4-RM7OZEJj22nk35PG']": "linkedin",
+            "[name='off']":"website",
+            "[id='file_upload-c1e6393b-957a-4c26-a76d-7af7dab728ab-jVgep783CF6OnKmn']":"deck"
+        }
+    },
+
+    "https://www.dreamit.com/apply":{
+        "isComplex":false,
+        "selectorMapping":{
+            "[name='email']": "email",
+            "[name='website']": "website",
+            "[name='firstname']": "firstName",
+            "[name='lastname']": "lastName",
+            "[name='company']": "company_name",
+            "[name='investor_deck_or_1_pager_on_your_startup']": "deck"
+        }
+    }
+  }
+  

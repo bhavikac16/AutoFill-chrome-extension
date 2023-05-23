@@ -1,0 +1,62 @@
+{
+    
+    "name": "MyAutoFill",
+    "version": "0.1",
+    "description": "Autofill personal information on forms",
+    "homepage_url": "https://github.com/bhavikac16/AutoFill-chrome-extension",
+    "permissions": [
+      "activeTab",
+      "declarativeContent",
+      "storage"
+    ],
+    "content_scripts": [
+          {
+        "matches": [
+          "https://newchip.com/*",
+          "https://angelpad.com/*",
+          "https://www.eranyc.com/apply/*",
+          "https://docs.google.com/forms/d/e/1FAIpQLSdlAkO35VSwzh8rSqGe8C_anSfLCrASUaKriwWKv0BMlHhsMg/viewform",
+          "https://apply.ycombinator.com/*",
+          "https://www.beondeck.com/*",
+          "https://nextgrid.ai/ai-startup-accelerator/*",
+          "https://forms.monday.com/forms/e41be69cc0e04d5f33bd471c3a64a6cb?r=use1",
+          "https://jsf.co/*",
+          "https://highalpha.com/build-with-us/*",
+          "https://www.themidas.vc/*",
+          "https://form.typeform.com/to/dRl9sxnG?typeform-source=www.themidas.vc",
+          "https://a16z.com/*",
+          "https://www.evca.org/fellowship/*",
+          "https://ggn9lko5eaj.typeform.com/to/bQ27hmiW?typeform-source=www.evca.org",
+          "https://www.pareto20.com/*",
+          "https://www.dreamit.com/apply/*"
+        ],
+        "js": [
+          "content.js",
+          "jquery-3.7.0.min.js"
+        ]
+          }
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "options_page": "options.html",
+    "manifest_version": 3,
+    "web_accessible_resources": [
+      {
+        "resources": ["data.json"],
+        "matches": [ "*://*/*" ]
+      },
+      {
+        "resources": ["sites.json"],
+        "matches": [ "*://*/*" ]
+      },
+      {
+        "resources": ["index.html"],
+        "matches": [ "*://*/*" ]
+      }
+    ],
+    "action": {
+        "default_popup": "index.html"
+    }
+  }
+  
